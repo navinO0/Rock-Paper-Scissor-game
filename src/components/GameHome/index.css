@@ -1,0 +1,134 @@
+.game-home-main-container {
+  background-color: #223a5f;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.game-card-content-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .game-card-content-container {
+    width: 100%;
+  }
+}
+.rules-btn {
+  align-self: center;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #223a5f;
+  font-family: 'bree serif';
+  font-size: 17px;
+  border-style: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.button-container {
+  align-self: flex-end;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.trigger-button {
+  align-self: center;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #223a5f;
+  font-family: 'bree serif';
+  font-size: 17px;
+  border-style: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+}
+.rules-image {
+  width: 100%;
+  margin: 0px;
+}
+.rules-image-contaier {
+  padding: 30px;
+}
+.popped-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  border-radius: 20px;
+}
+.popup-content {
+  width: 600px;
+  border-radius: 10px;
+  padding: 0px;
+}
+.close-button {
+  background-color: transparent;
+  cursor: pointer;
+  align-self: flex-end;
+  border-style: none;
+}
+.close-btn {
+  font-size: 30px;
+}
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-arrow {
+}
+
+@media screen and (max-width: 768px) {
+  .game-card-content-container {
+    width: 100%;
+  }
+
+  .popped-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .popup-content {
+    border-radius: 10px;
+    padding: 0px;
+    max-width: 600px;
+    width: 80%;
+  }
+  .rules-image-contaier {
+    padding: 10px;
+  }
+}
+
+@keyframes anvil {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  1% {
+    transform: scale(0.96) translateY(10px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+    box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+  }
+}
+.popup-content {
+  -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}

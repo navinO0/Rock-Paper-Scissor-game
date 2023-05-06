@@ -1,0 +1,55 @@
+.RPC-images {
+  height: 150px;
+}
+.game-result-main-container {
+  height: 370px;
+  padding: 30px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.selected-options-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+.you-container {
+}
+.result-text-play-again-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.play-again-btn {
+  align-self: center;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #223a5f;
+  font-family: 'bree serif';
+  font-size: 17px;
+  border-style: none;
+  border-radius: 6px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+.result-text {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.player-text {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
+}

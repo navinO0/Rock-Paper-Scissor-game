@@ -1,0 +1,52 @@
+.score-card-container {
+  background-color: #223a5f;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 10px;
+  border-width: 1px;
+  max-width: 700px;
+  width: 80%;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.game-text-container {
+}
+.game-text {
+  color: #ffffff;
+  font-family: bree serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 0px;
+  width: 90px;
+}
+.score-card-text-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  border-radius: 15px;
+  height: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.score-text {
+  color: #223a5f;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.score {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #223a5f;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
