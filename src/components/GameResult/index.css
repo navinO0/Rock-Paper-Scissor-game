@@ -3,8 +3,9 @@
 }
 .game-result-main-container {
   height: 370px;
-  padding: 30px;
-  width: 450px;
+
+  max-width: 450px;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -52,4 +53,13 @@
   font-size: 26px;
   font-weight: 600;
   color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .RPC-images {
+    height: 130px;
+  }
+  .player-text {
+    font-size: 22px;
+  }
 }
